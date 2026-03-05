@@ -14,7 +14,7 @@ public class HelloWorldController throws InterruptedException{
     
     @GetMapping("/hello")
     public String hello()  {
-        Thread.sleep(10000)
+        Thread.sleep(10000);
         return "Hello All";
     }
 
