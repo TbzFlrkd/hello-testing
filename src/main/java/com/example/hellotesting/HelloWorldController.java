@@ -14,6 +14,7 @@ public class HelloWorldController {
     
     @GetMapping("/hello")
     public String hello()  {
+        Thread.sleep(10000)
         return "Hello All";
     }
 
